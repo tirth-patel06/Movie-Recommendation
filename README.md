@@ -80,6 +80,17 @@ The **Movie Recommendation App** is a full-stack web application that recommends
 ]
 ```
 
+--- 
+
+# 🌐 Live Demo
+### 🚀 The Movie Recommendation App is live and ready to use:
+  - 🔗 Frontend (React + Vite) deployed on Vercel:
+    https://movie-recommendation-tp06.vercel.app/
+  - 🔗 Backend (FastAPI) deployed on Railway:
+    https://movie-recommendation.up.railway.app/
+
+---
+
 ## 🔧 Setup & Run Instructions
 
 ### 🖥️ Backend (FastAPI + Python)
