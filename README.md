@@ -13,7 +13,7 @@ The **Movie Recommendation App** is a full-stack web application that recommends
 - React Router DOM – Client-side routing
 - Tailwind CSS + Custom CSS – Styling and layout
 - Fetch API – To consume backend & TMDb REST API
-- Custom Components – MovieHolder, DecryptedText, TryButton, etc..
+- Custom Components – MovieHolder, DecryptedText, TryButton, etc.
 
 ### 🧠 Backend (Python)
 - FastAPI – High-performance web API
