@@ -21,6 +21,11 @@
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Version Badge"/>
 </p>
 
+<p align="center">
+  <img src="banner.png" alt="NextFrame Banner" style="max-width: 100%;">
+</p>
+
+
 ## 📝 Overview
 
 The **NextFrame (Movie Recommendation App)** is a full-stack web application that recommends movies similar to a user’s selected movie. It combines a **Machine Learning backend (Python + FastAPI)** with a **dynamic and interactive frontend (React.js)** to deliver real-time movie suggestions and information
