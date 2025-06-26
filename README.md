@@ -1,8 +1,29 @@
-# 🎬 Movie Recommendation App — Documentation
+# 🎬 NextFrame — ML-Powered Movie Recommendation App
+
+<p align="center">
+  <!-- Deployment Platforms -->
+  <a href="https://movie-recommendation-tp06.vercel.app/">
+    <img src="https://img.shields.io/badge/Frontend-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Badge"/>
+  </a>
+  <img src="https://img.shields.io/badge/Backend-Railway-4433FF?style=for-the-badge&logo=railway&logoColor=white" alt="Railway Badge"/>
+
+  <!-- Core Technologies -->
+  <img src="https://img.shields.io/badge/Framework-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI Badge"/>
+  <img src="https://img.shields.io/badge/UI-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React Badge"/>
+  <img src="https://img.shields.io/badge/Styling-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS Badge"/>
+  <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite Badge"/>
+
+  <!-- ML / NLP -->
+  <img src="https://img.shields.io/badge/Model-Pickle-blue?style=for-the-badge&logo=python&logoColor=white" alt="Pickle Badge"/>
+  <img src="https://img.shields.io/badge/NLP-NLTK-85C88A?style=for-the-badge&logo=python&logoColor=white" alt="NLTK Badge"/>
+
+  <!-- Python & Live -->
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Version Badge"/>
+</p>
 
 ## 📝 Overview
 
-The **Movie Recommendation App** is a full-stack web application that recommends movies similar to a user’s selected movie. It combines a **Machine Learning backend (Python + FastAPI)** with a **dynamic and interactive frontend (React.js)** to deliver real-time movie suggestions and information
+The **NextFrame (Movie Recommendation App)** is a full-stack web application that recommends movies similar to a user’s selected movie. It combines a **Machine Learning backend (Python + FastAPI)** with a **dynamic and interactive frontend (React.js)** to deliver real-time movie suggestions and information
 
 ---
 
