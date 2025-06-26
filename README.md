@@ -8,24 +8,27 @@ The **Movie Recommendation App** is a full-stack web application that recommends
 
 ## ⚙️ Technology Stack (Minimal & Focused)
 
-### 📌 Frontend (React)
-- **React.js** – Core frontend library
-- **React Router DOM** – Client-side routing
-- **Axios** – HTTP client for API communication
-- **Tailwind CSS / Custom CSS** – Styling and layout
-- **Custom Components** – Reusable UI elements (`MovieHolder`, `DecryptedText`, `TryButton`, etc.)
+### 🖼️ Frontend (React)
+- React.js (via Vite)
+- React Router DOM – Client-side routing
+- Tailwind CSS + Custom CSS – Styling and layout
+- Fetch API – To consume backend & TMDb REST API
+- Custom Components – MovieHolder, DecryptedText, TryButton, etc..
 
-### 📌 Backend (Python)
-- **FastAPI** – High-performance Python web framework for building APIs
-- **Uvicorn** – ASGI server to run FastAPI
-- **Pydantic** – Data validation for request bodies
-- **joblib** – For loading pre-trained machine learning models
-- **NumPy & Pandas** – Data handling libraries
-- **CORS Middleware** – For allowing frontend-backend communication
+### 🧠 Backend (Python)
+- FastAPI – High-performance web API
+- Uvicorn – ASGI server for FastAPI
+- Pydantic – Request/response validation
+- Pickle / joblib – For loading ML models
+- NumPy, Pandas – Data handling
+- `requests` – To download `.pkl` from Dropbox
+- CORS Middleware – Frontend-backend interaction
 
-### 📌 Machine Learning Model
-- **Precomputed Cosine Similarity Matrix** – Used for recommending similar movies
-- **Pickled `.pkl` files** – `similarity.pkl` and `movies.pkl` (title, overview, vote average, etc.)
+### 🤖 Machine Learning
+- Trained with: scikit-learn, NLTK
+- Features: Genres, overview, cast, crew, keywords
+- `CountVectorizer` + Cosine Similarity
+- Exported `.pkl` files: `movies.pkl`, `similarity.pkl`
 
 ---
 
